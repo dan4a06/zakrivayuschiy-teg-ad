@@ -11,6 +11,43 @@
 */
 
 .page {
-  min-inline-size: 320px;
+  min-inline-size: 375px;
   min-block-size: 100dvb;
+  font-family: var(--main-font), sans-serif;
+  font-variation-settings: 'wght' var(--font-weight-normal, 400);
+  padding-inline: clamp(0px, -130.99px + 34.93vw, 372px);
+  background-image: linear-gradient(180deg, #E7E7E7 0%, #1A1A1A 100%);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  padding-block: clamp(120px, 117.18px + 0.75vw, 128px);
+  margin-block: 100px;
+  background-color: #fff;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--accent-font);
+    font-weight: var(--font-weight-normal);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header__logo-title {
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+}
+
+.header__logo-description {
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+}
+
+.card {
+  
 }
